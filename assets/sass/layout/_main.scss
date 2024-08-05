@@ -1,0 +1,46 @@
+.clear {
+    clear: left;
+}
+
+.main__contenedor--imgs{
+    position: relative;
+    width: 100%;
+    
+}
+
+.main__contenedor--imgscuadro{
+background-color: #3c91e6;
+width:73%;
+height: 400px;
+float:right;
+}
+.main__contenedor--imgscafe{
+    width: 705px;
+    position: absolute;
+    right: 0;
+    overflow: hidden;
+}
+.main__contenedor--imgsmapa{
+    margin-top: 70px;
+    width: 650px;
+    height: 339px;
+    position: absolute;
+    left: 500px;
+    overflow: hidden;
+    z-index: 1;
+
+}
+.main__contenedor--imgsgranos{
+    z-index: 1;
+    object-fit: cover;
+    overflow: hidden;
+    width: 154px;
+    position: absolute;
+    right: 670px;
+
+}
+.main__contenedor--imgsgranosmodificacion{
+    object-fit: contain; 
+    width: auto;
+    height: 9vw;
+}

@@ -1,0 +1,264 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: sans-serif;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+button, input, select, textarea {
+  font: inherit;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fff;
+  height: 130px;
+}
+
+.header {
+  width: 100%;
+}
+
+.main {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+}
+
+body {
+  font-family: "PT Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.header__title {
+  font-size: 5.938em;
+  margin-bottom: 10px;
+  margin-left: 50px;
+}
+.header__title--subtitle {
+  font-size: 1.5em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+}
+
+.main__contenedortexto {
+  width: 40%;
+  margin-left: 150px;
+  margin-top: 100px;
+  padding-left: 30px;
+}
+.main__contenedortexto--h4 {
+  font-size: 2.813em;
+}
+.main__contenedortexto--p {
+  margin-top: 30px;
+  font-size: 1.875em;
+}
+
+.navbar__button {
+  cursor: pointer;
+  width: 240px;
+  height: 50px;
+  font-size: 25px;
+  margin-right: 50px;
+  font-family: "PT Mono", monospace;
+  font-weight: 400;
+}
+.navbar__button--login {
+  border: 1px solid #454545;
+  background-color: transparent;
+}
+.navbar__button--login:hover {
+  background-color: #9dcfab;
+}
+.navbar__button--register {
+  background-color: #4ca866;
+  border: none;
+  color: #fff;
+}
+
+.navbar__button:hover {
+  background-color: #bddfc7;
+}
+
+.navbar__logo img {
+  width: 80%;
+  padding-left: 120px;
+  position: relative;
+}
+
+.navbar__links {
+  list-style: none;
+  display: flex;
+  margin-left: 150px;
+  position: absolute;
+  left: 400px;
+}
+.navbar__links--link {
+  text-decoration: none;
+  color: #989797;
+  font-size: 2em;
+  margin-right: 90px;
+}
+
+.navbar__auth {
+  display: flex;
+  margin-right: 150px;
+}
+
+.header {
+  width: 100%;
+}
+
+.header__image {
+  float: left;
+  width: 75%;
+}
+
+.header__image img {
+  width: 100%;
+  height: 950px;
+  position: relative;
+}
+
+.header__content {
+  float: right;
+  padding: 20px;
+  text-align: left;
+  position: absolute;
+  bottom: 700px;
+  right: 300px;
+}
+
+.header__stats {
+  background-color: #fff;
+  height: 181px;
+  width: 26%;
+  display: flex;
+  padding-left: 120px;
+  justify-content: center;
+  margin-bottom: 20px;
+  position: absolute;
+  top: 900px;
+  right: 700px;
+}
+
+.header__stat {
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 50px;
+}
+.header__stat--number {
+  display: block;
+  font-size: 4.25em;
+  font-weight: bold;
+}
+.header__stat--text {
+  font-size: 1.063em;
+  text-align: left;
+}
+
+.header__contenedor--vacio {
+  width: 200px;
+  height: 200px;
+  background-color: #f1dd78;
+  position: absolute;
+  right: -165px;
+  top: -17px;
+}
+
+.header__arrow {
+  position: relative;
+  margin-top: 20px;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  top: -60px;
+  right: -45px;
+}
+
+.header__arrow .fas {
+  width: 200px;
+  height: 200px;
+  font-size: 100px;
+  color: #fff;
+  background-color: #FF5722;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.clear {
+  clear: left;
+}
+
+.main__contenedor--imgs {
+  position: relative;
+  width: 100%;
+}
+
+.main__contenedor--imgscuadro {
+  background-color: #3c91e6;
+  width: 73%;
+  height: 400px;
+  float: right;
+}
+
+.main__contenedor--imgscafe {
+  width: 705px;
+  position: absolute;
+  right: 0;
+  overflow: hidden;
+}
+
+.main__contenedor--imgsmapa {
+  margin-top: 70px;
+  width: 650px;
+  height: 339px;
+  position: absolute;
+  left: 500px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.main__contenedor--imgsgranos {
+  z-index: 1;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+  width: 154px;
+  position: absolute;
+  right: 670px;
+}
+
+.main__contenedor--imgsgranosmodificacion {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: auto;
+  height: 9vw;
+}/*# sourceMappingURL=style.css.map */

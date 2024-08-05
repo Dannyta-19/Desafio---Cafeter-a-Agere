@@ -1,0 +1,30 @@
+@use "../abstracts/variables";
+
+.navbar__button {
+    cursor: pointer;
+    width: 240px;
+    height: 50px;
+    font-size: 25px;
+    margin-right: 50px;
+    font-family: "PT Mono", monospace;
+    font-weight: 400;
+ &--login {
+    border: 1px solid #454545;
+    background-color: transparent;
+}
+&--login:hover{
+    background-color: variables.$hover-color-2;
+}
+
+&--register {
+    background-color: variables.$primary-color;
+    border: none;
+   // background-color: #4ca866;
+    color: #fff;
+    
+}
+ }
+.navbar__button:hover {
+    background-color: variables.$hover-color;
+}
+ 

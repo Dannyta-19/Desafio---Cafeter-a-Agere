@@ -1,0 +1,25 @@
+.navbar__logo img {
+    width: 80%;
+    padding-left: 120px;
+    position: relative;
+}
+.navbar__links {
+    list-style: none;
+    display: flex;
+    margin-left: 150px;
+    position: absolute;
+    left: 400px;
+
+&--link {
+    text-decoration: none;
+    color: #989797;
+    font-size: 2em;
+    margin-right: 90px;
+}
+}
+
+.navbar__auth {
+    display: flex;
+   margin-right: 150px;
+}
+
